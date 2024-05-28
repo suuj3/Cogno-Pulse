@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This is for custom CSS -->
+    <link rel="stylesheet" href="../static/css/output.css" />
+
+    <!-- This is the bootstrap cdn css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- This is the title of the webpage -->
+    <title>Personality Prediction</title>
+  </head>
+
+  <body>
+    <main class="form-signin w-100 m-auto">
+      <div class="px-4 py-5 my-5 text-center">
+        {% if value[0] == 0 %}
+
+        <h1 class="display-5 fw-bold">Dependable</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Like a sturdy anchor in the stormy seas of life, a constant presence
+            you can lean on. It's the unwavering hand that guides you through
+            challenges, the solid foundation upon which trust is built. When the
+            chips are down, you can count on it to come through, time and time
+            again
+          </p>
+        </div>
+        {% elif value[0] == 1 %}
+
+        <h1 class="display-5 fw-bold">Extraverted</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            The life of the party, a vibrant force that lights up any room. It's
+            the energy that thrives on social interaction, the outgoing spirit
+            that embraces new experiences with enthusiasm. Always ready to
+            engage, connect, and share the joy of life with others, it brings
+            zest and excitement to every moment.
+          </p>
+        </div>
+        {% elif value[0] == 2 %}
+
+        <h1 class="display-5 fw-bold">lively</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Bursting with vivacity and spirit, it's the spark that ignites joy
+            and energy in every situation. Like a dance of colors on a canvas,
+            it exudes a contagious liveliness that uplifts and inspires. With a
+            zest for life and an infectious enthusiasm, it infuses every moment
+            with vibrancy and zest, making the ordinary extraordinary.
+          </p>
+        </div>
+        {% elif value[0] == 3 %}
+
+        <h1 class="display-5 fw-bold">responsible</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            A beacon of reliability and trustworthiness, it's the steadfast hand
+            that guides with integrity and accountability. Like the rock-solid
+            foundation of a sturdy bridge, it upholds commitments and honors
+            obligations with unwavering dedication. With a sense of duty and
+            conscientiousness, it ensures that tasks are completed diligently
+            and promises are kept, earning respect and admiration along the way.
+          </p>
+        </div>
+
+        {% elif value[0] == 4 %}
+
+        <h1 class="display-5 fw-bold">serious</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Steeped in solemnity and depth, it's the demeanor that commands
+            attention and respect. Like the weight of the world on broad
+            shoulders, it approaches matters with gravity and earnestness, never
+            taking lightly the gravity of its responsibilities. Behind the
+            composed exterior lies a mind of contemplation and purpose, ready to
+            tackle challenges with unwavering focus and determination.
+          </p>
+        </div>
+
+        {% else %}
+        <p>Invalid prediction.</p>
+        {% endif %}
+      </div>
+    </main>
+  </body>
+
+  <!-- This is the bootstrap cdn js -->
+  <script
+    rel="stylesheet"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</html>

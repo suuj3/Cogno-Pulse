@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.82 494.09">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #839f92;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-4 {
+        fill: #536b60;
+      }
+
+      .cls-5 {
+        font-family: Calibri-Bold, Calibri;
+        font-size: 83px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-4" cx="282.56" cy="115.85" r="115.85"/>
+    <circle class="cls-3" cx="117.2" cy="278.25" r="115.85"/>
+    <circle class="cls-4" cx="160.58" cy="236" r="55.14"/>
+    <circle class="cls-3" cx="239.01" cy="158.3" r="55.14"/>
+  </g>
+  <text class="cls-5" transform="translate(0 465.12)"><tspan class="cls-4" x="0" y="0">Cogno</tspan><tspan class="cls-1" x="217.06" y="0">Pulse</tspan><tspan class="cls-2" x="401.06" y="0"> </tspan></text>
+</svg>

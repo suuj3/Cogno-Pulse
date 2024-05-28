@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This is for custom CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!-- This is the bootstrap cdn css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- This is the title of the webpage -->
+    <title>
+       Personality Prediction
+    </title>
+</head>
+
+<body>
+    <main class="form-signin w-300 m-auto">
+        <form method="post" action="/predict">
+            <h1 class="h3 mb-3 fw-normal">
+                Answer to know your personality
+            </h1>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="gender" placeholder="0.0" name="f1">
+                <label for="gender" class="lab">Gender</label>
+            </div>
+            <p>Enter your Gender<br><font>&nbsp;&nbsp;&nbsp;Male: 0 <br>&nbsp;&nbsp;&nbsp;Female: 1</font></p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="age" placeholder="0.0" name="f2">
+                <label for="age" class="lab">Age</label>
+            </div>
+            <p>Enter your Age</p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="openness" placeholder="0.0" name="f3">
+                <label for="openness" class="lab">Openness</label>
+            </div>
+            <p>How open are you to interacting with and understanding people who are different from you?<br>Enter Values between 1-8<br><font>&nbsp;&nbsp;&nbsp;Agree: 8<br>&nbsp;&nbsp;&nbsp;Disagree: 1</font></p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="neuroticism" placeholder="0.0" name="f4">
+                <label for="neuroticism" class="lab">Neuroticism</label>
+            </div>
+            <p>How neurotic do you consider yourself?<br>Enter Values between 1-8<br><font>&nbsp;&nbsp;&nbsp;Agree: 8<br>&nbsp;&nbsp;&nbsp;Disagree: 1</font></p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="conscientiousness" placeholder="0.0" name="f5">
+                <label for="conscientiousness" class="lab">Conscientiousness</label>
+            </div>
+            <p>How conscientious do you consider yourself?<br>Enter Values between 1-8<br><font>&nbsp;&nbsp;&nbsp;Agree: 8<br>&nbsp;&nbsp;&nbsp;Disagree: 1</font></p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="agreeableness" placeholder="0.0" name="f6">
+                <label for="agreeableness" class="lab">Agreeableness</label>
+            </div>
+            <p>How agreeable do you consider yourself?<br>Enter Values between 1-8<br><font>&nbsp;&nbsp;&nbsp;Agree: 8<br>&nbsp;&nbsp;&nbsp;Disagree: 1</font></p>
+            <br>
+
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="extraversion" placeholder="0.0" name="f7">
+                <label for="extraversion" class="lab">Extraversion</label>
+            </div>
+            <p>How extraverted do you consider yourself?<br>Enter Values between 1-8<br><font>&nbsp;&nbsp;&nbsp;Agree: 8<br>&nbsp;&nbsp;&nbsp;Disagree: 1</font></p>
+            <br><br>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #536B60;">Predict</button><br>
+            <button class="w-100 btn btn-lg btn-primary" type="reset" style="background-color: #6b535d;">Reset</button>
+
+        </form>
+    </main>
+</body>
+
+<!-- This is the bootstrap cdn js -->
+<!-- <script rel="stylesheet" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"> -->
+</script>
+
+</html>
