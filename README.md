@@ -44,21 +44,21 @@ After answering the questions user can check their personality type:
 
 ## Usage
 You should install the following libraries;
-# pip install flask
-# pip instal sklearn
-# pip install numpy, pandas, matplotlib
+##### pip install flask
+##### pip instal sklearn
+##### pip install numpy, pandas, matplotlib
 
 You should import the following librarie from sklearn; 
-# from sklearn.linear_model import LogisticRegression 
-# from sklearn.model_selection import train_test_split
-# from sklearn.preprocessing import PolynomialFeatures 
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.svm import SVC
-# from sklearn.neighbors import KNeighborsClassifier
-# from sklearn.preprocessing import RobustScaler
-# from sklearn.metrics import precision_score, recall_score, confusion_matrix, f1_score,accuracy_score
-# from sklearn.metrics import mean_squared_error, r2_score
-# from sklearn.ensemble import RandomForestClassifier
+##### from sklearn.linear_model import LogisticRegression 
+##### from sklearn.model_selection import train_test_split
+##### from sklearn.preprocessing import PolynomialFeatures 
+##### from sklearn.linear_model import LogisticRegression
+##### from sklearn.svm import SVC
+##### from sklearn.neighbors import KNeighborsClassifier
+##### from sklearn.preprocessing import RobustScaler
+##### from sklearn.metrics import precision_score, recall_score, confusion_matrix, f1_score,accuracy_score
+##### from sklearn.metrics import mean_squared_error, r2_score
+##### from sklearn.ensemble import RandomForestClassifier
 
 We have trained 7 different models to optimize the performance.
 ![Screenshot (460)](https://github.com/suuj3/Cogno-pulse/assets/118878065/1812baae-3782-40fe-b2f6-0c8426beaa82)
